@@ -10,7 +10,6 @@ void setup() {
 
 void draw() {
   background(0);
-  
   fill(random(255), random(255), random(255));
   ellipse(circleX, circleY, size, size);
   circleX = circleX + random(-5.0, 5.0);
